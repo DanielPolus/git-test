@@ -2,10 +2,12 @@ package org.example;
 
 import java.util.HashSet;
 import java.util.Set;
+
 public class Main {
 
 
     public static void main(String[] args) {
+
         Set<String> gods = new HashSet<String>();
         Set<String> planets = new HashSet<String>();
         Set<String> sweets = new HashSet<String>();
@@ -23,8 +25,7 @@ public class Main {
         gods.retainAll(planets);
 
         result = gods;
-        System.out.println("!!!\n" + result.toString() + "\n!!!");
-
+        System.out.println("!!!" + result.toString() + "!!!");
     }
 
 }
