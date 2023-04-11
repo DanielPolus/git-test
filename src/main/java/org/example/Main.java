@@ -25,7 +25,7 @@ public class Main {
         gods.retainAll(planets);
 
         result = gods;
-        System.out.println("!!!" + result.toString() + "!!!");
+        System.out.println("!!!!" + result.toString() + "!!!!");
     }
 
 }
